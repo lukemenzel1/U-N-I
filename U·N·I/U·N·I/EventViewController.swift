@@ -15,9 +15,12 @@ class EventViewController: UIViewController {
     
     let StartPicker = UIDatePicker()
     let EndPicker = UIDatePicker()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
         
         createStartDatePicker()
         createEndDatePicker()
@@ -28,12 +31,14 @@ class EventViewController: UIViewController {
         let StartToolbar = UIToolbar()
         StartToolbar.sizeToFit()
         
+        
         //done button for toolbar 
         let StartDone = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(StartDateSelected))
         StartToolbar.setItems([StartDone], animated: false)
         
         StartDateField.inputAccessoryView = StartToolbar
         StartDateField.inputView = StartPicker
+        
         
         //format picker for date 
         

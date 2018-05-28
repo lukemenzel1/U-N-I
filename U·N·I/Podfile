@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '10.2'
+
+target 'U·N·I' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+
+  # Pods for U·N·I
+  
+  #pod for the google places search controller, which is used for the location search autofill
+    pod "GooglePlaces"
+    pod "GoogleMaps"
+    pod "GooglePlacePicker"
+
+end

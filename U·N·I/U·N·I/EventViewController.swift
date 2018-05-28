@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import CoreLocation
+import MapKit
 
 class EventViewController: UIViewController {
     
+    @IBOutlet weak var LocationText: UITextField!
     @IBOutlet weak var TitleText: UITextField!
     @IBOutlet weak var EndDateField: UITextField!
     @IBOutlet weak var StartDateField: UITextField!
@@ -22,10 +25,12 @@ class EventViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        
+        configureTextFields()
         createStartDatePicker()
         createEndDatePicker()
+        configureTapGesture()
     }
+    
     
     func createStartDatePicker() {
         //Toolbar 
@@ -86,4 +91,28 @@ class EventViewController: UIViewController {
         EndDateField.text = "\(EndDateString)"
         self.view.endEditing(true)
     }
+    
+    //configuring the textfields
+    private func configureTextFields() {
+        TitleText.delegate = self
+        LocationText.delegate = self
+    }
+    
+    private func configureTapGesture() {
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(EventViewController.handleTap))
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func handleTap() {
+        print("handle tap was called")
+        view.endEditing(true)
+    }
  }
+ 
+ extension EventViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+        }
+    }
+

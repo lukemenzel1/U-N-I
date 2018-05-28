@@ -146,7 +146,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter event location" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Syn-87-pYU">
-                                <rect key="frame" x="100" y="95" width="239" height="30"/>
+                                <rect key="frame" x="99" y="95" width="239" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
@@ -180,7 +180,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Event start time" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qyw-dW-YbZ">
-                                <rect key="frame" x="98" y="189" width="241" height="30"/>
+                                <rect key="frame" x="97" y="191" width="241" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -222,6 +222,7 @@
                     <tabBarItem key="tabBarItem" title="Add Event" image="Plus Icon -20" id="5Rk-za-7d2"/>
                     <connections>
                         <outlet property="EndDateField" destination="GAJ-cV-DLb" id="q14-Um-qWX"/>
+                        <outlet property="LocationText" destination="Syn-87-pYU" id="asM-Zt-7wN"/>
                         <outlet property="StartDateField" destination="qyw-dW-YbZ" id="EkY-db-Z3T"/>
                         <outlet property="TitleText" destination="04j-nk-RnN" id="zWK-O6-EmW"/>
                     </connections>

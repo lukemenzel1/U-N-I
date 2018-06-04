@@ -19,10 +19,6 @@
 		8599B4DA202A8157005BB28B /* U_N_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4D9202A8157005BB28B /* U_N_ITests.swift */; };
 		8599B4E5202A8157005BB28B /* U_N_IUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4E4202A8157005BB28B /* U_N_IUITests.swift */; };
 		8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8599B4F3202A8236005BB28B /* MapKit.framework */; };
-<<<<<<< HEAD
-		85C2B6C320C213CF007FB5B5 /* GooglePlacesPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C2B6C220C213CF007FB5B5 /* GooglePlacesPicker.framework */; };
-=======
->>>>>>> parent of 0be0081... Autofill locations
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +57,6 @@
 		8599B4E4202A8157005BB28B /* U_N_IUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_N_IUITests.swift; sourceTree = "<group>"; };
 		8599B4E6202A8157005BB28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8599B4F3202A8236005BB28B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-<<<<<<< HEAD
-		85C2B6C220C213CF007FB5B5 /* GooglePlacesPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacesPicker.framework; path = "../../../../../../../../../Library/Developer/Xcode/DerivedData/U·N·I-fqtmtnoegfdldtdunpeypmnigamq/Build/Products/Debug-iphonesimulator/GooglePlacesPicker/GooglePlacesPicker.framework"; sourceTree = "<group>"; };
-=======
->>>>>>> parent of 0be0081... Autofill locations
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C2B6C320C213CF007FB5B5 /* GooglePlacesPicker.framework in Frameworks */,
 				8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +144,6 @@
 		8599B4F2202A8236005BB28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				85C2B6C220C213CF007FB5B5 /* GooglePlacesPicker.framework */,
 				8599B4F3202A8236005BB28B /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -459,7 +449,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/GooglePlacesPicker",
 				);
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -478,7 +467,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/GooglePlacesPicker",
 				);
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

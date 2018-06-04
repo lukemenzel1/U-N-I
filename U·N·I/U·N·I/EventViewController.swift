@@ -10,7 +10,6 @@ import UIKit
 
 class EventViewController: UIViewController {
     
-    @IBOutlet weak var TitleText: UITextField!
     @IBOutlet weak var EndDateField: UITextField!
     @IBOutlet weak var StartDateField: UITextField!
     

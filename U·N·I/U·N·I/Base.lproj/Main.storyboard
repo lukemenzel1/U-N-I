@@ -20,9 +20,25 @@
                     <view key="view" contentMode="scaleToFill" id="KHu-J5-OzB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.83778428665556992" green="0.9882352941176471" blue="0.98399344022569035" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="wzQ-Nr-NeP">
+                                <rect key="frame" x="168" y="0.0" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hL4-kR-sk5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Timetable" image="Timetable icon-20" id="V8C-Qn-ii6"/>
+                    <connections>
+                        <outlet property="HorizontalScroll" destination="hL4-kR-sk5" id="HB5-9A-GCn"/>
+                        <outlet property="PageControl" destination="hL4-kR-sk5" id="jaG-vd-qGo"/>
+                        <outlet property="PageView" destination="wzQ-Nr-NeP" id="9eh-E5-u1N"/>
+                        <outlet property="ScrollView" destination="hL4-kR-sk5" id="QfD-XN-oEt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agW-lF-zra" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -106,22 +122,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="cJM-ic-mHE">
-                                <rect key="frame" x="63" y="0.0" width="123" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="I3M-UM-aXh" id="Qa0-uU-aXb"/>
-                                </connections>
-                            </searchBar>
-                            <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="IJH-y3-7Zy">
-                                <rect key="frame" x="0.0" y="69" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="I3M-UM-aXh" id="ZfE-ZX-jfK"/>
-                                </connections>
-                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="0.83921568627450982" green="0.9882352941176471" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -134,7 +134,6 @@
                 <searchDisplayController id="RyJ-rN-Cme">
                     <connections>
                         <outlet property="delegate" destination="I3M-UM-aXh" id="0cs-gM-5F1"/>
-                        <outlet property="searchBar" destination="cJM-ic-mHE" id="OPL-qU-tqn"/>
                         <outlet property="searchContentsController" destination="I3M-UM-aXh" id="wU1-8d-s5H"/>
                         <outlet property="searchResultsDataSource" destination="I3M-UM-aXh" id="FBf-c7-ld0"/>
                         <outlet property="searchResultsDelegate" destination="I3M-UM-aXh" id="vQA-ZR-QSJ"/>
@@ -143,7 +142,6 @@
                 <searchDisplayController id="OjV-Ah-Yxm">
                     <connections>
                         <outlet property="delegate" destination="I3M-UM-aXh" id="jOE-RN-uEU"/>
-                        <outlet property="searchBar" destination="IJH-y3-7Zy" id="ICQ-Ql-dS0"/>
                         <outlet property="searchContentsController" destination="I3M-UM-aXh" id="l0O-b4-iUt"/>
                         <outlet property="searchResultsDataSource" destination="I3M-UM-aXh" id="QxK-jh-OO9"/>
                         <outlet property="searchResultsDelegate" destination="I3M-UM-aXh" id="62G-G0-EyM"/>
@@ -267,7 +265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iSe-34-pZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1543.2" y="900.89955022488766"/>
+            <point key="canvasLocation" x="-1543" y="912"/>
         </scene>
     </scenes>
     <resources>

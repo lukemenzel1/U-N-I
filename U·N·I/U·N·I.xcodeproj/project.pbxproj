@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8561507620E0834F00A21AA7 /* Launch Screen.storyboard */; };
 		8582274F20A92ABC00AE141E /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582274E20A92ABC00AE141E /* TimetableViewController.swift */; };
 		8582275120A92C3600AE141E /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582275020A92C3600AE141E /* FriendsViewController.swift */; };
 		8582275320A92C4700AE141E /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582275220A92C4700AE141E /* EventViewController.swift */; };
@@ -15,10 +16,13 @@
 		8599B4C5202A8156005BB28B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4C4202A8156005BB28B /* AppDelegate.swift */; };
 		8599B4CA202A8156005BB28B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8599B4C8202A8156005BB28B /* Main.storyboard */; };
 		8599B4CC202A8156005BB28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8599B4CB202A8156005BB28B /* Assets.xcassets */; };
-		8599B4CF202A8156005BB28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8599B4CD202A8156005BB28B /* LaunchScreen.storyboard */; };
 		8599B4DA202A8157005BB28B /* U_N_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4D9202A8157005BB28B /* U_N_ITests.swift */; };
 		8599B4E5202A8157005BB28B /* U_N_IUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4E4202A8157005BB28B /* U_N_IUITests.swift */; };
 		8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8599B4F3202A8236005BB28B /* MapKit.framework */; };
+		85C11A922109472500CA43B2 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C11A902109472500CA43B2 /* DayViewController.swift */; };
+		85C11A932109472500CA43B2 /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C11A912109472500CA43B2 /* DayViewController.xib */; };
+		85C11A962109473300CA43B2 /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C11A942109473300CA43B2 /* MonthViewController.swift */; };
+		85C11A972109473300CA43B2 /* MonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C11A952109473300CA43B2 /* MonthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8561507620E0834F00A21AA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8582274E20A92ABC00AE141E /* TimetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		8582275020A92C3600AE141E /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		8582275220A92C4700AE141E /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +53,6 @@
 		8599B4C4202A8156005BB28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8599B4C9202A8156005BB28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8599B4CB202A8156005BB28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8599B4CE202A8156005BB28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8599B4D0202A8156005BB28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8599B4D5202A8157005BB28B /* U·N·ITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "U·N·ITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8599B4D9202A8157005BB28B /* U_N_ITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_N_ITests.swift; sourceTree = "<group>"; };
@@ -57,6 +61,10 @@
 		8599B4E4202A8157005BB28B /* U_N_IUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_N_IUITests.swift; sourceTree = "<group>"; };
 		8599B4E6202A8157005BB28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8599B4F3202A8236005BB28B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		85C11A902109472500CA43B2 /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		85C11A912109472500CA43B2 /* DayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayViewController.xib; sourceTree = "<group>"; };
+		85C11A942109473300CA43B2 /* MonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		85C11A952109473300CA43B2 /* MonthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,15 +117,17 @@
 		8599B4C3202A8156005BB28B /* U·N·I */ = {
 			isa = PBXGroup;
 			children = (
+				85C11A8B2109468800CA43B2 /* EventController */,
+				85C11A8A2109467F00CA43B2 /* FriendsController */,
+				85C11A892109467600CA43B2 /* TimetableController */,
 				8599B4C4202A8156005BB28B /* AppDelegate.swift */,
 				8582275020A92C3600AE141E /* FriendsViewController.swift */,
 				8582275220A92C4700AE141E /* EventViewController.swift */,
 				8582275420A92C5200AE141E /* SettingsViewController.swift */,
 				8582275620A92C5A00AE141E /* ProfileViewController.swift */,
-				8582274E20A92ABC00AE141E /* TimetableViewController.swift */,
 				8599B4C8202A8156005BB28B /* Main.storyboard */,
 				8599B4CB202A8156005BB28B /* Assets.xcassets */,
-				8599B4CD202A8156005BB28B /* LaunchScreen.storyboard */,
+				8561507620E0834F00A21AA7 /* Launch Screen.storyboard */,
 				8599B4D0202A8156005BB28B /* Info.plist */,
 			);
 			path = "U·N·I";
@@ -147,6 +157,32 @@
 				8599B4F3202A8236005BB28B /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85C11A892109467600CA43B2 /* TimetableController */ = {
+			isa = PBXGroup;
+			children = (
+				8582274E20A92ABC00AE141E /* TimetableViewController.swift */,
+				85C11A902109472500CA43B2 /* DayViewController.swift */,
+				85C11A912109472500CA43B2 /* DayViewController.xib */,
+				85C11A942109473300CA43B2 /* MonthViewController.swift */,
+				85C11A952109473300CA43B2 /* MonthViewController.xib */,
+			);
+			name = TimetableController;
+			sourceTree = "<group>";
+		};
+		85C11A8A2109467F00CA43B2 /* FriendsController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FriendsController;
+			sourceTree = "<group>";
+		};
+		85C11A8B2109468800CA43B2 /* EventController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EventController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +298,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8599B4CF202A8156005BB28B /* LaunchScreen.storyboard in Resources */,
+				8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */,
 				8599B4CC202A8156005BB28B /* Assets.xcassets in Resources */,
+				85C11A972109473300CA43B2 /* MonthViewController.xib in Resources */,
 				8599B4CA202A8156005BB28B /* Main.storyboard in Resources */,
+				85C11A932109472500CA43B2 /* DayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,10 +328,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8582275720A92C5A00AE141E /* ProfileViewController.swift in Sources */,
+				85C11A962109473300CA43B2 /* MonthViewController.swift in Sources */,
 				8582274F20A92ABC00AE141E /* TimetableViewController.swift in Sources */,
 				8582275320A92C4700AE141E /* EventViewController.swift in Sources */,
 				8582275120A92C3600AE141E /* FriendsViewController.swift in Sources */,
 				8582275520A92C5200AE141E /* SettingsViewController.swift in Sources */,
+				85C11A922109472500CA43B2 /* DayViewController.swift in Sources */,
 				8599B4C5202A8156005BB28B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,14 +376,6 @@
 				8599B4C9202A8156005BB28B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8599B4CD202A8156005BB28B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8599B4CE202A8156005BB28B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -445,10 +477,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WFDBFJ2923;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -463,10 +491,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WFDBFJ2923;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

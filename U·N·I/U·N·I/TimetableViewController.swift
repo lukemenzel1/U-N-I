@@ -10,25 +10,22 @@ import UIKit
 
 class TimetableViewController: UIViewController, UIScrollViewDelegate {
 
-    
-    @IBOutlet weak var PageView: UIPageControl!
-    @IBOutlet weak var HorizontalScroll: UIScrollView!
+    var views: [UIView]!
+     @IBOutlet weak var ViewController: UIView!
+    @IBAction func SwitchViewAction(_ sender: UISegmentedControl) {
+        self.ViewController.bringSubview(toFront: views[sender.selectedSegmentIndex])
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        for image in 0...2 {
-            let imageToDisplay = UIImage(named: "\(image).png")
-            let imageView = UIImageView(image: imageToDisplay)
-            
-            
-            let xCoordinate = view.frame.midX + view.frame.width * CGFloat(image)
-            
-            HorizontalScroll.addSubview(imageView)
-            
-            imageView.frame = CGRect(x: xCoordinate, y: view.frame.height / 2, width: 100, height: 100)
+        views = [UIView] ()
+        views.append(DayViewController().view)
+        views.append(MonthViewController().view)
+        
+        for v in views {
+            ViewController.addSubview(v)
         }
-    
-
+        ViewController.bringSubview(toFront: views[0])
     }
+    
 }

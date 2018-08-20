@@ -18,8 +18,14 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lT4-OQ-X3G">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </scrollView>
+            </subviews>
             <color key="backgroundColor" red="0.43622561040000002" green="1" blue="0.93445955999999997" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="61" y="58"/>
+            <point key="canvasLocation" x="60.5" y="57.5"/>
         </view>
     </objects>
 </document>

@@ -22,11 +22,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHj-JP-RLa">
                                 <rect key="frame" x="0.0" y="56" width="375" height="562"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+=======
+>>>>>>> parent of fef7cbb... lets get it done
 =======
 >>>>>>> parent of fef7cbb... lets get it done
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vjy-xR-hsg">
@@ -47,7 +50,11 @@
                             </view>
                         </subviews>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <color key="backgroundColor" red="0.83921568627450982" green="0.99607843137254903" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> parent of fef7cbb... lets get it done
 =======
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 >>>>>>> parent of fef7cbb... lets get it done

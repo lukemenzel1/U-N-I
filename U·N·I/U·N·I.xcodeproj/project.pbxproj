@@ -20,10 +20,6 @@
 		8599B4DA202A8157005BB28B /* U_N_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4D9202A8157005BB28B /* U_N_ITests.swift */; };
 		8599B4E5202A8157005BB28B /* U_N_IUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4E4202A8157005BB28B /* U_N_IUITests.swift */; };
 		8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8599B4F3202A8236005BB28B /* MapKit.framework */; };
-		85C11A922109472500CA43B2 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C11A902109472500CA43B2 /* DayViewController.swift */; };
-		85C11A932109472500CA43B2 /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C11A912109472500CA43B2 /* DayViewController.xib */; };
-		85C11A962109473300CA43B2 /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C11A942109473300CA43B2 /* MonthViewController.swift */; };
-		85C11A972109473300CA43B2 /* MonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C11A952109473300CA43B2 /* MonthViewController.xib */; };
 		85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; };
 		85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; };
 		85D63040212D6471001C8954 /* JTAppleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -81,10 +77,6 @@
 		8599B4E4202A8157005BB28B /* U_N_IUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_N_IUITests.swift; sourceTree = "<group>"; };
 		8599B4E6202A8157005BB28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8599B4F3202A8236005BB28B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		85C11A902109472500CA43B2 /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
-		85C11A912109472500CA43B2 /* DayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayViewController.xib; sourceTree = "<group>"; };
-		85C11A942109473300CA43B2 /* MonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
-		85C11A952109473300CA43B2 /* MonthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,10 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				8582274E20A92ABC00AE141E /* TimetableViewController.swift */,
-				85C11A902109472500CA43B2 /* DayViewController.swift */,
-				85C11A912109472500CA43B2 /* DayViewController.xib */,
-				85C11A942109473300CA43B2 /* MonthViewController.swift */,
-				85C11A952109473300CA43B2 /* MonthViewController.xib */,
 				85520936212E926800CC78F2 /* CustomCell.swift */,
 			);
 			name = TimetableController;
@@ -326,9 +314,7 @@
 			files = (
 				8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */,
 				8599B4CC202A8156005BB28B /* Assets.xcassets in Resources */,
-				85C11A972109473300CA43B2 /* MonthViewController.xib in Resources */,
 				8599B4CA202A8156005BB28B /* Main.storyboard in Resources */,
-				85C11A932109472500CA43B2 /* DayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,13 +358,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8582275720A92C5A00AE141E /* ProfileViewController.swift in Sources */,
-				85C11A962109473300CA43B2 /* MonthViewController.swift in Sources */,
 				8582274F20A92ABC00AE141E /* TimetableViewController.swift in Sources */,
 				8582275320A92C4700AE141E /* EventViewController.swift in Sources */,
 				85520937212E926800CC78F2 /* CustomCell.swift in Sources */,
 				8582275120A92C3600AE141E /* FriendsViewController.swift in Sources */,
 				8582275520A92C5200AE141E /* SettingsViewController.swift in Sources */,
-				85C11A922109472500CA43B2 /* DayViewController.swift in Sources */,
 				8599B4C5202A8156005BB28B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

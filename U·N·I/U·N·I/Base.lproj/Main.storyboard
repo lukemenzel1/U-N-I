@@ -21,22 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHj-JP-RLa">
-                                <rect key="frame" x="0.0" y="487" width="375" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vjy-xR-hsg">
-                                <rect key="frame" x="127" y="446" width="121" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Day"/>
-                                    <segment title="Month"/>
-                                </segments>
-                                <connections>
-                                    <action selector="SwitchViewAction:" destination="5nI-vi-Clq" eventType="valueChanged" id="BrO-Qs-HyV"/>
-                                </connections>
-                            </segmentedControl>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="OQ8-I0-oo8">
                                 <rect key="frame" x="0.0" y="49" width="375" height="332"/>
                                 <subviews>
@@ -138,11 +122,6 @@
                                                     <constraint firstItem="exm-bV-pSB" firstAttribute="centerX" secondItem="JIX-rV-sPD" secondAttribute="centerX" id="oDr-F6-yn2"/>
                                                     <constraint firstItem="kIg-JB-aML" firstAttribute="centerX" secondItem="JIX-rV-sPD" secondAttribute="centerX" id="stE-A5-91c"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                        <integer key="value" value="2"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <outlet property="dateLabel" destination="kIg-JB-aML" id="Fu9-zo-XWo"/>
                                                     <outlet property="selectedView" destination="exm-bV-pSB" id="28j-Zd-iV8"/>
@@ -174,7 +153,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Timetable" image="Timetable icon-20" id="V8C-Qn-ii6"/>
                     <connections>
-                        <outlet property="ViewController" destination="eHj-JP-RLa" id="6Nr-04-ak3"/>
                         <outlet property="calendarView" destination="KzD-la-daa" id="eZl-re-He8"/>
                     </connections>
                 </viewController>

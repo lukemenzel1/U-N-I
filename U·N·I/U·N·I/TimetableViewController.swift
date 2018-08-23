@@ -21,22 +21,13 @@ class TimetableViewController: UIViewController, UIScrollViewDelegate {
     }
     override func viewDidLoad() {
         
-        setupCalendarView()
-        
         super.viewDidLoad()
-        views = [UIView] ()
-        views.append(DayViewController().view)
-        views.append(MonthViewController().view)
-        
-        for v in views {
-            ViewController.addSubview(v)
-        }
-        ViewController.bringSubview(toFront: views[0])
+        setupCalendarView()
+
     }
     func setupCalendarView() {
-        calendarView.minimumLineSpacing = 0
         calendarView.minimumInteritemSpacing = 0
-        
+        calendarView.minimumLineSpacing = 0
     }
 }
 
@@ -60,6 +51,11 @@ extension TimetableViewController: JTAppleCalendarViewDelegate {
         func calendar(_ calendar: JTAppleCalendarView, cellForItemAt date: Date, cellState: CellState, indexPath: IndexPath) -> JTAppleCell {
             let cell = calendar.dequeueReusableJTAppleCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
             cell.dateLabel.text = cellState.text
+            if cellState.isSelected {
+                cell.selectedView.isHidden = false
+            } else {
+                cell.selectedView.isHidden = true
+            }
             return cell
             }
         func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {

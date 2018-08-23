@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <color key="backgroundColor" red="0.43622561040000002" green="1" blue="0.93445955999999997" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="61" y="58"/>
+            <point key="canvasLocation" x="60.5" y="57.5"/>
         </view>
     </objects>
 </document>

@@ -11,6 +11,7 @@ import JTAppleCalendar
 
 class TimetableViewController: UIViewController, UIScrollViewDelegate {
     
+    @IBOutlet weak var calendarView: JTAppleCalendarView!
     let formatter = DateFormatter()
 
     var views: [UIView]!
@@ -18,8 +19,10 @@ class TimetableViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func SwitchViewAction(_ sender: UISegmentedControl) {
         self.ViewController.bringSubview(toFront: views[sender.selectedSegmentIndex])
     }
-    
     override func viewDidLoad() {
+        
+        setupCalendarView()
+        
         super.viewDidLoad()
         views = [UIView] ()
         views.append(DayViewController().view)
@@ -30,12 +33,14 @@ class TimetableViewController: UIViewController, UIScrollViewDelegate {
         }
         ViewController.bringSubview(toFront: views[0])
     }
-    
+    func setupCalendarView() {
+        calendarView.minimumLineSpacing = 0
+        calendarView.minimumInteritemSpacing = 0
+        
+    }
 }
 
-extension TimetableViewController: JTAppleCalendarViewDelegate, JTAppleCalendarViewDataSource {
-    func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
-    }
+extension TimetableViewController: JTAppleCalendarViewDataSource {
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
         formatter.dateFormat = "yyyy MM dd"
         formatter.timeZone = Calendar.current.timeZone
@@ -48,13 +53,35 @@ extension TimetableViewController: JTAppleCalendarViewDelegate, JTAppleCalendarV
         return parameters
     }
     
-    func calendar(_ calendar: JTAppleCalendarView, cellForItemAt date: Date, cellState: CellState, indexPath: IndexPath) -> JTAppleCell {
-        let cell = calendar.dequeueReusableJTAppleCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
-        cell.dateLabel.text = cellState.text
-        return cell
-    }
 }
+
+extension TimetableViewController: JTAppleCalendarViewDelegate {
+    //display the cell
+        func calendar(_ calendar: JTAppleCalendarView, cellForItemAt date: Date, cellState: CellState, indexPath: IndexPath) -> JTAppleCell {
+            let cell = calendar.dequeueReusableJTAppleCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
+            cell.dateLabel.text = cellState.text
+            return cell
+            }
+        func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
+    }
+func calendar(_ calendar: JTAppleCalendarView, didSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
+    guard let validCell = cell as? CustomCell else { return }
+    validCell.selectedView.isHidden = false
+        
+    }
     
+func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
+    guard let validCell = cell as? CustomCell else { return }
+    validCell.selectedView.isHidden = true
+    }
+
+}
+
+
+
+
+
+
 
 
 

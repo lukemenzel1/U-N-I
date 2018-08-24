@@ -7,6 +7,7 @@
 //
 
 import UIKit
+// https://termsfeed.com/privacy-policy/45274125f8a5ab7feb1d22bfc89e7e10 this is my privacy policy for fb login
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

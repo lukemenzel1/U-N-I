@@ -8,19 +8,19 @@
 
 import UIKit
 import JTAppleCalendar
-import FBSDKCoreKit
 
 class TimetableViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var calendarView: JTAppleCalendarView!
     @IBOutlet weak var month: UILabel!
     @IBOutlet weak var year: UILabel!
-    
-    
+
+    //timetable
     let formatter = DateFormatter()
     let monthColour = UIColor.black
     let selectedMonthColour = UIColor.cyan
     let daysOutsideMonthColour = UIColor.lightGray
+    
 
     var views: [UIView]!
      @IBOutlet weak var ViewController: UIView!

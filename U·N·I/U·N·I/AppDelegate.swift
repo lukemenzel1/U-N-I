@@ -9,8 +9,11 @@
 import UIKit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import FBSDKCoreKit
 // https://termsfeed.com/privacy-policy/45274125f8a5ab7feb1d22bfc89e7e10 this is my privacy policy for fb login
+=======
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 >>>>>>> parent of 0a087f3... Facebook login start
 =======

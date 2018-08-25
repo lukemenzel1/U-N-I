@@ -21,6 +21,7 @@
 		8599B4E5202A8157005BB28B /* U_N_IUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4E4202A8157005BB28B /* U_N_IUITests.swift */; };
 		8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8599B4F3202A8236005BB28B /* MapKit.framework */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		85B53983212FB4BD002DC6DA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */; };
 		85B53984212FB4BD002DC6DA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */; };
 		85B53985212FB4BD002DC6DA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */; };
@@ -29,6 +30,8 @@
 		85B5398E212FB4E6002DC6DA /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85B53995212FC568002DC6DA /* Branch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53993212FC4DF002DC6DA /* Branch.framework */; };
 		85B53996212FC568002DC6DA /* Branch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53993212FC4DF002DC6DA /* Branch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+=======
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 >>>>>>> parent of 0a087f3... Facebook login start
 		85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; };
@@ -61,9 +64,12 @@
 			files = (
 				85D63040212D6471001C8954 /* JTAppleCalendar.framework in Embed Frameworks */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				85B5398A212FB4E6002DC6DA /* FBSDKCoreKit.framework in Embed Frameworks */,
 				85B53996212FC568002DC6DA /* Branch.framework in Embed Frameworks */,
 				85B5398C212FB4E6002DC6DA /* FBSDKLoginKit.framework in Embed Frameworks */,
+=======
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 >>>>>>> parent of 0a087f3... Facebook login start
 			);
@@ -96,6 +102,7 @@
 		8599B4E6202A8157005BB28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8599B4F3202A8236005BB28B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
@@ -103,6 +110,8 @@
 		85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		85B53993212FC4DF002DC6DA /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 >>>>>>> parent of 0a087f3... Facebook login start
 /* End PBXFileReference section */
@@ -114,7 +123,11 @@
 			files = (
 				85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				85B53995212FC568002DC6DA /* Branch.framework in Frameworks */,
+=======
+				85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */,
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 				85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */,
 >>>>>>> parent of 0a087f3... Facebook login start
@@ -164,7 +177,10 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 				8566062F21320CC6008E8EB9 /* U·N·I.entitlements */,
+=======
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 >>>>>>> parent of 0a087f3... Facebook login start
 				85C11A8B2109468800CA43B2 /* EventController */,
@@ -206,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 				85B53993212FC4DF002DC6DA /* Branch.framework */,
 				85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */,
 				85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */,
@@ -213,6 +230,8 @@
 				85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */,
 				85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */,
 				85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */,
+=======
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 >>>>>>> parent of 0a087f3... Facebook login start
 				8500F991212D4B4C00404947 /* JTAppleCalendar.framework */,
@@ -574,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "U·N·I/U·N·I.entitlements";
 				DEVELOPMENT_TEAM = WFDBFJ2923;
@@ -582,6 +602,9 @@
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
 					"$(PROJECT_DIR)",
 				);
+=======
+				DEVELOPMENT_TEAM = WFDBFJ2923;
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 				DEVELOPMENT_TEAM = WFDBFJ2923;
 >>>>>>> parent of 0a087f3... Facebook login start
@@ -599,6 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "U·N·I/U·N·I.entitlements";
 				DEVELOPMENT_TEAM = WFDBFJ2923;
@@ -607,6 +631,9 @@
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
 					"$(PROJECT_DIR)",
 				);
+=======
+				DEVELOPMENT_TEAM = WFDBFJ2923;
+>>>>>>> parent of 0a087f3... Facebook login start
 =======
 				DEVELOPMENT_TEAM = WFDBFJ2923;
 >>>>>>> parent of 0a087f3... Facebook login start

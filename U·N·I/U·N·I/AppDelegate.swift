@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import FBSDKCoreKit
-import FBSDKLoginKit
 // https://termsfeed.com/privacy-policy/45274125f8a5ab7feb1d22bfc89e7e10 this is my privacy policy for fb login
 
 @UIApplicationMain
@@ -25,7 +23,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     }
-
+// func for fb login implementation
+    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey: Any])
+        -> Bool {
+            return FBSDKApplicationDelegate.sharedInstance().application(application,  open: url, sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String?,annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+        }
 
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -50,13 +52,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+            
 
-    // func for fb login implementation
-    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey: Any])
-        -> Bool {
-            return FBSDKApplicationDelegate.sharedInstance().application(application, open: url, options: options)
-           
-            }
 
 
     

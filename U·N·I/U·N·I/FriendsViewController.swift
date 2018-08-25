@@ -27,7 +27,6 @@ class FriendsViewController: UIViewController, FBSDKLoginButtonDelegate{
         loginButton.center = CGPoint(x: 94, y: 40)
         loginButton.delegate = self
         
-        
         if let token = FBSDKAccessToken.current(){
             fetchProfile() 
         }
@@ -38,6 +37,8 @@ class FriendsViewController: UIViewController, FBSDKLoginButtonDelegate{
     //fetches users data
     func fetchProfile() {
         print("fetch profile")
+        
+        manager.loginBehavior = FBSDKLoginBehavior.web
         
         let graphRequest:FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"first_name, gender, last_name, email, picture.type(large)"])
         
@@ -75,30 +76,4 @@ class FriendsViewController: UIViewController, FBSDKLoginButtonDelegate{
     func loginButtonWillLogin(_ loginButton: FBSDKLoginButton!) -> Bool {
         return true
     }
-    
-//    func loginButtonClicked() {
-//        manager.logIn([.public ], viewController: self) { loginResult in
-//            switch loginResult {
-//            case .failed(let error):
-//                print(error)
-//            case .cancelled:
-//                print("User cancelled login.")
-//            case .success(let grantedPermissions, let declinedPermissions, let accessToken):
-//                self.getFBUserData()
-//            }
-//        }
-//    }
-//
-//    //function is fetching the user data
-//    func getFBUserData(){
-//        if((FBSDKAccessToken.current()) != nil){
-//            FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, picture.type(large), email"]).start(completionHandler: { (connection, result, error) -> Void in
-//                if (error == nil){
-//                    self.dict = result as! [String : AnyObject]
-//                    print(result!)
-//                    print(self.dict)
-//                }
-//            })
-//        }
-//    }
 }

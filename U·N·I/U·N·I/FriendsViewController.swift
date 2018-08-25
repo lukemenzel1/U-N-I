@@ -37,8 +37,7 @@ class FriendsViewController: UIViewController, FBSDKLoginButtonDelegate{
     //fetches users data
     func fetchProfile() {
         print("fetch profile")
-        
-        manager.loginBehavior = FBSDKLoginBehavior.web
+
         
         let graphRequest:FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"first_name, gender, last_name, email, picture.type(large)"])
         

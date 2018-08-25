@@ -72,6 +72,7 @@
 		85520936212E926800CC78F2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8561507620E0834F00A21AA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8566062F21320CC6008E8EB9 /* U·N·I.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "U·N·I.entitlements"; sourceTree = "<group>"; };
+		8566063221321FDC008E8EB9 /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging Header.h"; sourceTree = "<group>"; };
 		8582274E20A92ABC00AE141E /* TimetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		8582275020A92C3600AE141E /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		8582275220A92C4700AE141E /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +96,6 @@
 		85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
-		85B5398F212FB959002DC6DA /* U·N·I-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "U·N·I-Bridging-Header.h"; sourceTree = "<group>"; };
 		85B53993212FC4DF002DC6DA /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				8566062F21320CC6008E8EB9 /* U·N·I.entitlements */,
-				85B53992212FB97B002DC6DA /* Facebook */,
 				85C11A8B2109468800CA43B2 /* EventController */,
 				85C11A8A2109467F00CA43B2 /* FriendsController */,
 				85C11A892109467600CA43B2 /* TimetableController */,
@@ -168,6 +167,7 @@
 				8599B4CB202A8156005BB28B /* Assets.xcassets */,
 				8561507620E0834F00A21AA7 /* Launch Screen.storyboard */,
 				8599B4D0202A8156005BB28B /* Info.plist */,
+				8566063221321FDC008E8EB9 /* Bridging Header.h */,
 			);
 			path = "U·N·I";
 			sourceTree = "<group>";
@@ -204,14 +204,6 @@
 				8599B4F3202A8236005BB28B /* MapKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		85B53992212FB97B002DC6DA /* Facebook */ = {
-			isa = PBXGroup;
-			children = (
-				85B5398F212FB959002DC6DA /* U·N·I-Bridging-Header.h */,
-			);
-			name = Facebook;
 			sourceTree = "<group>";
 		};
 		85C11A892109467600CA43B2 /* TimetableController */ = {

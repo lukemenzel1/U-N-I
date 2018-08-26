@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8507E3DD2132241D002D7A19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8507E3DC2132241D002D7A19 /* Default-568h@2x.png */; };
+		85179486213278CA008BDCE6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85179484213278C9008BDCE6 /* FBSDKCoreKit.framework */; };
+		85179487213278CA008BDCE6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85179485213278CA008BDCE6 /* FBSDKLoginKit.framework */; };
 		85520937212E926800CC78F2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85520936212E926800CC78F2 /* CustomCell.swift */; };
 		8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8561507620E0834F00A21AA7 /* Launch Screen.storyboard */; };
 		8582274F20A92ABC00AE141E /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582274E20A92ABC00AE141E /* TimetableViewController.swift */; };
@@ -59,10 +61,11 @@
 /* Begin PBXFileReference section */
 		8500F991212D4B4C00404947 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = ../../../../../../../../../Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = "<group>"; };
 		8507E3DC2132241D002D7A19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		85179484213278C9008BDCE6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		85179485213278CA008BDCE6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		85520936212E926800CC78F2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8561507620E0834F00A21AA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8566062F21320CC6008E8EB9 /* U·N·I.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "U·N·I.entitlements"; sourceTree = "<group>"; };
-		8566063221321FDC008E8EB9 /* Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging Header.h"; sourceTree = "<group>"; };
 		8582274E20A92ABC00AE141E /* TimetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		8582275020A92C3600AE141E /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		8582275220A92C4700AE141E /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */,
+				85179486213278CA008BDCE6 /* FBSDKCoreKit.framework in Frameworks */,
+				85179487213278CA008BDCE6 /* FBSDKLoginKit.framework in Frameworks */,
 				8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +152,6 @@
 				8599B4CB202A8156005BB28B /* Assets.xcassets */,
 				8561507620E0834F00A21AA7 /* Launch Screen.storyboard */,
 				8599B4D0202A8156005BB28B /* Info.plist */,
-				8566063221321FDC008E8EB9 /* Bridging Header.h */,
 			);
 			path = "U·N·I";
 			sourceTree = "<group>";
@@ -173,6 +177,8 @@
 		8599B4F2202A8236005BB28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85179484213278C9008BDCE6 /* FBSDKCoreKit.framework */,
+				85179485213278CA008BDCE6 /* FBSDKLoginKit.framework */,
 				8500F991212D4B4C00404947 /* JTAppleCalendar.framework */,
 				8599B4F3202A8236005BB28B /* MapKit.framework */,
 			);
@@ -273,6 +279,7 @@
 					8599B4C0202A8156005BB28B = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = WFDBFJ2923;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -538,12 +545,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lukemenzel.U-N-I";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -558,6 +567,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;

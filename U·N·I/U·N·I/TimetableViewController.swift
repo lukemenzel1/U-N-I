@@ -8,30 +8,22 @@
 
 import UIKit
 import JTAppleCalendar
-import FBSDKCoreKit
 
 class TimetableViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var calendarView: JTAppleCalendarView!
-<<<<<<< HEAD
     @IBOutlet weak var month: UILabel!
     @IBOutlet weak var year: UILabel!
     
     
     let formatter = DateFormatter()
-    let monthColour = UIColor.black
-    let selectedMonthColour = UIColor.cyan
+    let dayColour = UIColor.black
+    let selectedDayColour = UIColor.cyan
     let daysOutsideMonthColour = UIColor.lightGray
-<<<<<<< HEAD
     
-=======
-    let formatter = DateFormatter()
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of e158e36... Facebook Login Button
 
     var views: [UIView]!
-     @IBOutlet weak var ViewController: UIView!
+    @IBOutlet weak var ViewController: UIView!
     @IBAction func SwitchViewAction(_ sender: UISegmentedControl) {
         self.ViewController.bringSubview(toFront: views[sender.selectedSegmentIndex])
     }
@@ -44,7 +36,45 @@ class TimetableViewController: UIViewController, UIScrollViewDelegate {
     func setupCalendarView() {
         calendarView.minimumInteritemSpacing = 0
         calendarView.minimumLineSpacing = 0
+        
+        calendarView.visibleDates { visibleDates  in
+           self.setupViewsOfCalendar(from: visibleDates)
+        }
     }
+    
+    func handleCellTextColour(view: JTAppleCell?, cellState: CellState) {
+        guard let validCell = view as? CustomCell else { return }
+        if cellState.isSelected {
+            validCell.dateLabel.textColor = selectedDayColour
+        } else {
+            if cellState.dateBelongsTo == .thisMonth {
+                validCell.dateLabel.textColor = dayColour
+            }
+            else {
+                validCell.dateLabel.textColor = daysOutsideMonthColour
+            }
+        }
+    }
+    
+    func handleCellSelected(view: JTAppleCell?, cellState: CellState) {
+        guard let validCell = view as? CustomCell else { return }
+        if validCell.isSelected {
+            validCell.selectedView.isHidden = false
+        } else {
+            validCell.selectedView.isHidden = true
+        }
+    }
+    
+    func setupViewsOfCalendar(from visibleDates: DateSegmentInfo) {
+        let date = visibleDates.monthDates.first!.date
+        
+        self.formatter.dateFormat = "yyyy"
+        self.year.text = formatter.string(from: date)
+        
+        self.formatter.dateFormat = "MMMM"
+        self.month.text = formatter.string(from: date)
+    }
+    
 }
 
 extension TimetableViewController: JTAppleCalendarViewDataSource {
@@ -66,12 +96,11 @@ extension TimetableViewController: JTAppleCalendarViewDelegate {
     //display the cell
         func calendar(_ calendar: JTAppleCalendarView, cellForItemAt date: Date, cellState: CellState, indexPath: IndexPath) -> JTAppleCell {
             let cell = calendar.dequeueReusableJTAppleCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
+            
             cell.dateLabel.text = cellState.text
-            if cellState.isSelected {
-                cell.selectedView.isHidden = false
-            } else {
-                cell.selectedView.isHidden = true
-            }
+            
+            handleCellSelected(view: cell, cellState: cellState)
+            handleCellTextColour(view: cell, cellState: cellState)
             return cell
             }
         func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
@@ -79,12 +108,24 @@ extension TimetableViewController: JTAppleCalendarViewDelegate {
 func calendar(_ calendar: JTAppleCalendarView, didSelectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
     guard let validCell = cell as? CustomCell else { return }
     validCell.selectedView.isHidden = false
+      handleCellTextColour(view: cell, cellState: cellState)
         
     }
     
 func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell: JTAppleCell?, cellState: CellState) {
     guard let validCell = cell as? CustomCell else { return }
     validCell.selectedView.isHidden = true
+      handleCellTextColour(view: cell, cellState: cellState)
+    }
+    
+    func calendar(_ calendar: JTAppleCalendarView, didScrollToDateSegmentWith visibleDates: DateSegmentInfo) {
+        let date = visibleDates.monthDates.first!.date
+        
+        formatter.dateFormat = "yyyy"
+        year.text = formatter.string(from: date)
+        
+        formatter.dateFormat = "MMMM"
+        month.text = formatter.string(from: date)
     }
 
 }

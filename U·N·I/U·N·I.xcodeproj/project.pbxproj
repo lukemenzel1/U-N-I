@@ -20,27 +20,8 @@
 		8599B4CC202A8156005BB28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8599B4CB202A8156005BB28B /* Assets.xcassets */; };
 		8599B4DA202A8157005BB28B /* U_N_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4D9202A8157005BB28B /* U_N_ITests.swift */; };
 		8599B4E5202A8157005BB28B /* U_N_IUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4E4202A8157005BB28B /* U_N_IUITests.swift */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		85B53995212FC568002DC6DA /* Branch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53993212FC4DF002DC6DA /* Branch.framework */; };
-		85B53996212FC568002DC6DA /* Branch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53993212FC4DF002DC6DA /* Branch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-=======
 		8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8599B4F3202A8236005BB28B /* MapKit.framework */; };
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-		8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8599B4F3202A8236005BB28B /* MapKit.framework */; };
-		85B53983212FB4BD002DC6DA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */; };
-		85B53984212FB4BD002DC6DA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */; };
-		85B53985212FB4BD002DC6DA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */; };
-		85B53989212FB4E6002DC6DA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */; };
-		85B5398A212FB4E6002DC6DA /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		85B5398B212FB4E6002DC6DA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */; };
-		85B5398C212FB4E6002DC6DA /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		85B5398D212FB4E6002DC6DA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */; };
-		85B5398E212FB4E6002DC6DA /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
->>>>>>> parent of e158e36... Facebook Login Button
 		85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; };
-		85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; };
 		85D63040212D6471001C8954 /* JTAppleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -69,15 +50,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				85D63040212D6471001C8954 /* JTAppleCalendar.framework in Embed Frameworks */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				85B53996212FC568002DC6DA /* Branch.framework in Embed Frameworks */,
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				85B5398A212FB4E6002DC6DA /* FBSDKCoreKit.framework in Embed Frameworks */,
-				85B5398C212FB4E6002DC6DA /* FBSDKLoginKit.framework in Embed Frameworks */,
->>>>>>> parent of e158e36... Facebook Login Button
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,20 +80,6 @@
 		8599B4E4202A8157005BB28B /* U_N_IUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_N_IUITests.swift; sourceTree = "<group>"; };
 		8599B4E6202A8157005BB28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8599B4F3202A8236005BB28B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		85B53993212FC4DF002DC6DA /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-		85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
-		85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
-		85B5398F212FB959002DC6DA /* U·N·I-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "U·N·I-Bridging-Header.h"; sourceTree = "<group>"; };
->>>>>>> parent of e158e36... Facebook Login Button
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,19 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				85B53995212FC568002DC6DA /* Branch.framework in Frameworks */,
-=======
-				85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */,
-=======
-				85B53989212FB4E6002DC6DA /* FBSDKCoreKit.framework in Frameworks */,
-				85B5398D212FB4E6002DC6DA /* FBSDKShareKit.framework in Frameworks */,
-				85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */,
-				85B5398B212FB4E6002DC6DA /* FBSDKLoginKit.framework in Frameworks */,
->>>>>>> parent of e158e36... Facebook Login Button
 				8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */,
->>>>>>> parent of 0a087f3... Facebook login start
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,10 +134,7 @@
 		8599B4C3202A8156005BB28B /* U·N·I */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				8566062F21320CC6008E8EB9 /* U·N·I.entitlements */,
-=======
->>>>>>> parent of 0a087f3... Facebook login start
 				85C11A8B2109468800CA43B2 /* EventController */,
 				85C11A8A2109467F00CA43B2 /* FriendsController */,
 				85C11A892109467600CA43B2 /* TimetableController */,
@@ -230,19 +173,6 @@
 		8599B4F2202A8236005BB28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-<<<<<<< HEAD
-				85B53993212FC4DF002DC6DA /* Branch.framework */,
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */,
-				85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */,
-				85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */,
-				85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */,
-				85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */,
-				85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */,
->>>>>>> parent of e158e36... Facebook Login Button
 				8500F991212D4B4C00404947 /* JTAppleCalendar.framework */,
 				8599B4F3202A8236005BB28B /* MapKit.framework */,
 			);
@@ -337,7 +267,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Luke Menzel";
 				TargetAttributes = {
 					8599B4C0202A8156005BB28B = {
@@ -498,15 +428,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -532,7 +470,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -548,15 +486,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -586,7 +532,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-<<<<<<< HEAD
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "U·N·I/U·N·I.entitlements";
 				DEVELOPMENT_TEAM = WFDBFJ2923;
@@ -594,9 +539,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
 				);
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -610,7 +552,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-<<<<<<< HEAD
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "U·N·I/U·N·I.entitlements";
 				DEVELOPMENT_TEAM = WFDBFJ2923;
@@ -618,9 +559,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
 				);
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

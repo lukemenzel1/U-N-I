@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8507E3DD2132241D002D7A19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8507E3DC2132241D002D7A19 /* Default-568h@2x.png */; };
 		85520937212E926800CC78F2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85520936212E926800CC78F2 /* CustomCell.swift */; };
 		8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8561507620E0834F00A21AA7 /* Launch Screen.storyboard */; };
 		8582274F20A92ABC00AE141E /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582274E20A92ABC00AE141E /* TimetableViewController.swift */; };
@@ -19,24 +20,8 @@
 		8599B4CC202A8156005BB28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8599B4CB202A8156005BB28B /* Assets.xcassets */; };
 		8599B4DA202A8157005BB28B /* U_N_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4D9202A8157005BB28B /* U_N_ITests.swift */; };
 		8599B4E5202A8157005BB28B /* U_N_IUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599B4E4202A8157005BB28B /* U_N_IUITests.swift */; };
-		8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8599B4F3202A8236005BB28B /* MapKit.framework */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		85B53983212FB4BD002DC6DA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */; };
-		85B53984212FB4BD002DC6DA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */; };
-		85B53985212FB4BD002DC6DA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */; };
-		85B5398A212FB4E6002DC6DA /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		85B5398C212FB4E6002DC6DA /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		85B5398E212FB4E6002DC6DA /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85B53995212FC568002DC6DA /* Branch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53993212FC4DF002DC6DA /* Branch.framework */; };
 		85B53996212FC568002DC6DA /* Branch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85B53993212FC4DF002DC6DA /* Branch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
 		85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; };
 		85D63040212D6471001C8954 /* JTAppleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8500F991212D4B4C00404947 /* JTAppleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -66,18 +51,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				85D63040212D6471001C8954 /* JTAppleCalendar.framework in Embed Frameworks */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				85B5398A212FB4E6002DC6DA /* FBSDKCoreKit.framework in Embed Frameworks */,
 				85B53996212FC568002DC6DA /* Branch.framework in Embed Frameworks */,
-				85B5398C212FB4E6002DC6DA /* FBSDKLoginKit.framework in Embed Frameworks */,
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		8500F991212D4B4C00404947 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = ../../../../../../../../../Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = "<group>"; };
+		8507E3DC2132241D002D7A19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		85520936212E926800CC78F2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8561507620E0834F00A21AA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8566062F21320CC6008E8EB9 /* U·N·I.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "U·N·I.entitlements"; sourceTree = "<group>"; };
@@ -107,22 +82,7 @@
 		8599B4E4202A8157005BB28B /* U_N_IUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_N_IUITests.swift; sourceTree = "<group>"; };
 		8599B4E6202A8157005BB28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8599B4F3202A8236005BB28B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
-		85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.35.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		85B53993212FC4DF002DC6DA /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,20 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 				85B53995212FC568002DC6DA /* Branch.framework in Frameworks */,
-=======
-				85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */,
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */,
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				85D6303F212D6471001C8954 /* JTAppleCalendar.framework in Frameworks */,
->>>>>>> parent of 0a087f3... Facebook login start
-				8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +115,7 @@
 		8599B4B8202A8156005BB28B = {
 			isa = PBXGroup;
 			children = (
+				8507E3DC2132241D002D7A19 /* Default-568h@2x.png */,
 				8599B4C3202A8156005BB28B /* U·N·I */,
 				8599B4D8202A8157005BB28B /* U·N·ITests */,
 				8599B4E3202A8157005BB28B /* U·N·IUITests */,
@@ -189,16 +137,7 @@
 		8599B4C3202A8156005BB28B /* U·N·I */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 				8566062F21320CC6008E8EB9 /* U·N·I.entitlements */,
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
 				85C11A8B2109468800CA43B2 /* EventController */,
 				85C11A8A2109467F00CA43B2 /* FriendsController */,
 				85C11A892109467600CA43B2 /* TimetableController */,
@@ -237,22 +176,7 @@
 		8599B4F2202A8236005BB28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 				85B53993212FC4DF002DC6DA /* Branch.framework */,
-				85B53986212FB4E6002DC6DA /* FBSDKCoreKit.framework */,
-				85B53987212FB4E6002DC6DA /* FBSDKLoginKit.framework */,
-				85B53988212FB4E6002DC6DA /* FBSDKShareKit.framework */,
-				85B53980212FB4BD002DC6DA /* FBSDKCoreKit.framework */,
-				85B53981212FB4BD002DC6DA /* FBSDKLoginKit.framework */,
-				85B53982212FB4BD002DC6DA /* FBSDKShareKit.framework */,
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
-=======
->>>>>>> parent of 0a087f3... Facebook login start
 				8500F991212D4B4C00404947 /* JTAppleCalendar.framework */,
 				8599B4F3202A8236005BB28B /* MapKit.framework */,
 			);
@@ -401,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */,
+				8507E3DD2132241D002D7A19 /* Default-568h@2x.png in Resources */,
 				8599B4CC202A8156005BB28B /* Assets.xcassets in Resources */,
 				8599B4CA202A8156005BB28B /* Main.storyboard in Resources */,
 			);
@@ -611,9 +536,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "U·N·I/U·N·I.entitlements";
 				DEVELOPMENT_TEAM = WFDBFJ2923;
@@ -622,15 +544,6 @@
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
 					"$(PROJECT_DIR)",
 				);
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -644,9 +557,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "U·N·I/U·N·I.entitlements";
 				DEVELOPMENT_TEAM = WFDBFJ2923;
@@ -655,15 +565,6 @@
 					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.35.0",
 					"$(PROJECT_DIR)",
 				);
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-				DEVELOPMENT_TEAM = WFDBFJ2923;
->>>>>>> parent of 0a087f3... Facebook login start
 				INFOPLIST_FILE = "U·N·I/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

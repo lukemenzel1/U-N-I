@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import U_N_I
 
 class U_N_ITests: XCTestCase {
     

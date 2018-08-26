@@ -12,9 +12,6 @@ import JTAppleCalendar
 class TimetableViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var calendarView: JTAppleCalendarView!
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     @IBOutlet weak var month: UILabel!
     @IBOutlet weak var year: UILabel!
 
@@ -24,15 +21,6 @@ class TimetableViewController: UIViewController, UIScrollViewDelegate {
     let selectedMonthColour = UIColor.cyan
     let daysOutsideMonthColour = UIColor.lightGray
     
-=======
-    let formatter = DateFormatter()
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-    let formatter = DateFormatter()
->>>>>>> parent of 0a087f3... Facebook login start
-=======
-    let formatter = DateFormatter()
->>>>>>> parent of 0a087f3... Facebook login start
 
     var views: [UIView]!
      @IBOutlet weak var ViewController: UIView!
@@ -92,6 +80,8 @@ func calendar(_ calendar: JTAppleCalendarView, didDeselectDate date: Date, cell:
     }
 
 }
+
+
 
 
 

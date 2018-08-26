@@ -10,6 +10,9 @@
 		8507E3DD2132241D002D7A19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8507E3DC2132241D002D7A19 /* Default-568h@2x.png */; };
 		85179486213278CA008BDCE6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85179484213278C9008BDCE6 /* FBSDKCoreKit.framework */; };
 		85179487213278CA008BDCE6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85179485213278CA008BDCE6 /* FBSDKLoginKit.framework */; };
+		85179492213294A1008BDCE6 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8517948F2132949F008BDCE6 /* GoogleSignIn.framework */; };
+		85179493213294A1008BDCE6 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85179490213294A0008BDCE6 /* GoogleSignInDependencies.framework */; };
+		85179494213294A1008BDCE6 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85179491213294A1008BDCE6 /* GoogleSignIn.bundle */; };
 		85520937212E926800CC78F2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85520936212E926800CC78F2 /* CustomCell.swift */; };
 		8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8561507620E0834F00A21AA7 /* Launch Screen.storyboard */; };
 		8582274F20A92ABC00AE141E /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582274E20A92ABC00AE141E /* TimetableViewController.swift */; };
@@ -63,6 +66,9 @@
 		8507E3DC2132241D002D7A19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		85179484213278C9008BDCE6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		85179485213278CA008BDCE6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8517948F2132949F008BDCE6 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		85179490213294A0008BDCE6 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		85179491213294A1008BDCE6 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
 		85520936212E926800CC78F2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8561507620E0834F00A21AA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8566062F21320CC6008E8EB9 /* U·N·I.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "U·N·I.entitlements"; sourceTree = "<group>"; };
@@ -90,10 +96,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85179493213294A1008BDCE6 /* GoogleSignInDependencies.framework in Frameworks */,
 				85D6303E212D61C9001C8954 /* JTAppleCalendar.framework in Frameworks */,
 				85179486213278CA008BDCE6 /* FBSDKCoreKit.framework in Frameworks */,
 				85179487213278CA008BDCE6 /* FBSDKLoginKit.framework in Frameworks */,
 				8599B4F4202A8236005BB28B /* MapKit.framework in Frameworks */,
+				85179492213294A1008BDCE6 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +125,9 @@
 		8599B4B8202A8156005BB28B = {
 			isa = PBXGroup;
 			children = (
+				85179491213294A1008BDCE6 /* GoogleSignIn.bundle */,
+				8517948F2132949F008BDCE6 /* GoogleSignIn.framework */,
+				85179490213294A0008BDCE6 /* GoogleSignInDependencies.framework */,
 				8507E3DC2132241D002D7A19 /* Default-568h@2x.png */,
 				8599B4C3202A8156005BB28B /* U·N·I */,
 				8599B4D8202A8157005BB28B /* U·N·ITests */,
@@ -328,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8561507720E0834F00A21AA7 /* Launch Screen.storyboard in Resources */,
+				85179494213294A1008BDCE6 /* GoogleSignIn.bundle in Resources */,
 				8507E3DD2132241D002D7A19 /* Default-568h@2x.png in Resources */,
 				8599B4CC202A8156005BB28B /* Assets.xcassets in Resources */,
 				8599B4CA202A8156005BB28B /* Main.storyboard in Resources */,

@@ -8,6 +8,7 @@
 
 import UIKit
 import JTAppleCalendar
+import FBSDKCoreKit
 
 class TimetableViewController: UIViewController, UIScrollViewDelegate {
     
@@ -15,16 +16,19 @@ class TimetableViewController: UIViewController, UIScrollViewDelegate {
 <<<<<<< HEAD
     @IBOutlet weak var month: UILabel!
     @IBOutlet weak var year: UILabel!
-
-    //timetable
+    
+    
     let formatter = DateFormatter()
     let monthColour = UIColor.black
     let selectedMonthColour = UIColor.cyan
     let daysOutsideMonthColour = UIColor.lightGray
+<<<<<<< HEAD
     
 =======
     let formatter = DateFormatter()
 >>>>>>> parent of 0a087f3... Facebook login start
+=======
+>>>>>>> parent of e158e36... Facebook Login Button
 
     var views: [UIView]!
      @IBOutlet weak var ViewController: UIView!

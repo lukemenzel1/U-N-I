@@ -9,9 +9,20 @@
 import UIKit
 
 class FriendsViewController: UIViewController {
+<<<<<<< HEAD
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+=======
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+
+>>>>>>> parent of e158e36... Facebook Login Button
 }
 

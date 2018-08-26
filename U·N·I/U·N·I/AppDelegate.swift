@@ -7,6 +7,10 @@
 //
 
 import UIKit
+<<<<<<< HEAD
+=======
+// https://termsfeed.com/privacy-policy/45274125f8a5ab7feb1d22bfc89e7e10 this is my privacy policy for fb login
+>>>>>>> parent of e158e36... Facebook Login Button
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,11 +19,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+<<<<<<< HEAD
     
         
     return true
     }
 
+=======
+        // Override point for customization after application launch.
+        return true
+    }
+>>>>>>> parent of e158e36... Facebook Login Button
 
     func applicationWillResignActive(_ application: UIApplication) {
     
@@ -44,10 +54,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+<<<<<<< HEAD
 }
 
 
     
 
 
+=======
+
+}
+>>>>>>> parent of e158e36... Facebook Login Button
 

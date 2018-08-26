@@ -9,25 +9,37 @@
 import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
+import GoogleSignIn
 
 class FriendsViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     
-    
-    
+    //facebook login button
     let loginButton: FBSDKLoginButton = {
         let button = FBSDKLoginButton()
         button.readPermissions = ["public_profile", "email",]
         return button
     } ()
     
+    //Google login button
+//    let signInButton:  GIDSignInButton = {
+//        let googleButton = GIDSignInButton()
+//        return googleButton
+//    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //make facebook button appear on screen
         view.addSubview(loginButton)
         loginButton.center = CGPoint(x: 92, y: 35)
         loginButton.delegate = self
+        
+//        //make google button appear on screen
+//        view.addSubview(signInButton)
+//        signInButton.center = CGPoint(x: 200, y: 35)
+//
         
         //checking current users login access token
         if let token = FBSDKAccessToken.current() {
